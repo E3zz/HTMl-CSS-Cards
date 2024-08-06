@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Css Display Properties</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .card {
+        height: 500px;
+        width: 20vw;
+        border: 2px solid rgb(240, 235, 235);
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px 5px gray;
+        margin: 40px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+      }
+      .img {
+        margin: 0;
+        padding: 0;
+
+        img {
+          border-radius: 10px;
+        }
+
+        span {
+          border: 1px solid rgb(183, 181, 181);
+          border-radius: 20px;
+          border-width: thin;
+          margin: 5px;
+          padding: 5px;
+          color: rgb(159, 158, 158);
+        }
+        .list {
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+        p{
+          margin-top: 5px;
+        }
+        .button{
+          font-size: 18;
+          border: 2px solid #A6D1E6;
+          border-radius: 40px;
+          width: 6vw;
+          height: 25px;
+          margin-top: 20px;
+          margin-left: 100px;
+          color: rgb(85, 85, 168);
+          background-color: #89C4E1;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="img">
+        <img src="bg.png" width="400" border alt="background image" />
+        <div class="list">
+          <span>City</span>
+          <span>Weather</span>
+        </div>
+        <div class="text">
+          <h1>Blur Street</h1>
+        </div>
+        <div>
+          <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, non
+          laboriosam. Itaque aut quis cupiditate doloremque voluptates, sed
+          deserunt corporis animi magnam nulla ad minima laborum aliquid totam
+          reprehenderit ipsam. Aut ipsum soluta placeat. Quidem ipsa mollitia
+          saepe sed deleniti?</p>
+        </div>
+        <div class="button">Read More</div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
